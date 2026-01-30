@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data (décommenter si données sensibles)
+# data/raw/*.csv
+# data/processed/*.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Reports (ne pas push les versions intermédiaires)
+reports/*.docx
+reports/*~
+
+# Temporary files
+*.tmp
+*.log
